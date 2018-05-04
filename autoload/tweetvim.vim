@@ -131,6 +131,7 @@ function! tweetvim#userstream(bang, ...)
   normal! G
 
   set nonumber
+  set norelativenumber
   set foldcolumn=0
 
   let screen_name = tweetvim#account#current().screen_name
